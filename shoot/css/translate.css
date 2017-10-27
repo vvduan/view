@@ -1,0 +1,20 @@
+@charset "utf-8";
+.translate1{
+	transition: all 500ms;
+	-webkit-transition:all 500ms ;
+	-moz-transition: all 500ms; 
+}
+.font13{
+	font-size:13px;
+}
+.font22{
+	font-size: 22px;
+}
+.font14{
+	font-size:12px;
+}
+.translate2{
+	transition: all 1s;
+	-webkit-transition:all 1s ;
+	-moz-transition: all 1s; 
+}
