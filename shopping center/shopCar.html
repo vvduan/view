@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>shopCar</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/iconfont2.css" />
+		<link rel="stylesheet" type="text/css" href="assets/fonts/iconfontAdd.css" />
+		<link rel="stylesheet" type="text/css" href="assets/fonts/iconfontReduce.css" />
+		<link rel="stylesheet" type="text/css" href="assets/fonts/iconfontdel.css" />
+	</head>
+
+	<body>
+		<div class="container password">
+			<div class="header headshodow">
+				<header data-am-widget="header" class="am-header am-header-default">
+					<div class="am-header-left am-header-nav">
+						<a class="goback">
+							<i class="am-icon-md am-header-icon am-icon-angle-left"></i>
+						</a>
+					</div>
+					<h1 class="am-header-title">
+          			购物车
+      			   </h1>
+					<div class="am-header-right am-header-nav">
+						<i class="am-icon-sm am-icon-bars navslide"></i>
+					</div>
+					<div class="hide">
+						<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default " id="">
+							<ul class="am-navbar-nav am-cf am-avg-sm-4">
+								<li>
+									<a href="index.html" class="">
+										<i class="am-icon-home"></i>
+										<span class="am-navbar-label">首页</span>
+									</a>
+								</li>
+								<li>
+									<a href="fenLei.html" class="">
+										<i class=" am-icon-list-ul"></i>
+										<span class="am-navbar-label">分类</span>
+									</a>
+								</li>
+								<li>
+									<a href="shopCar.html" class="">
+										<i class="am-icon-shopping-cart"></i>
+										<span class="am-navbar-label">购物车</span>
+									</a>
+								</li>
+								<li>
+									<a href="personCenter.html" class="">
+										<i class=" am-icon-user"></i>
+										<span class="am-navbar-label">我的必要</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</header>
+			</div>
+			<div class="middle shopcar" id="shopcar">
+				<div class="m-cars">
+					<div class="m-cars-tit am-cf">
+						<span class="m-btn m-car-btn m-choice am-fl">					
+						<div class="kuang">
+						</div>
+						</span>
+						<span class="m-car-name am-fl">
+							chunfeng-见地服饰
+						</span>
+					</div>
+					<div class="m-car-list">
+						<div class="m-car-p am-cf">
+							<span class="m-btn m-p-l m-choice am-fl">
+								<div class="kuang">
+								</div>
+							</span>
+							<span class="m-p-m am-fl">
+								<a href="productdetail-one.html">
+								<img src="img/newgood/good1.jpg" />
+								</a>
+							</span>
+							<span class="m-p-r am-fr">
+								<div class="m-p-n am-cf">
+									<span id="name" class="am-fl">
+										亲子装男款双层圆领卫衣-石头剪刀布
+									</span>
+							<span class="price" class="am-fr">
+										￥249
+									</span>
+						</div>
+						<div class="m-size">
+							深花灰，XS
+						</div>
+						<div class="m-p-bottom am-cf">
+							<span class="m-number am-cf am-fl">
+									<div class="m-reduce am-fl">
+										<i class="iconfont icon-iconmianxingshujujian"></i>
+									</div>
+									<input  type="number"value="1" class="am-fl"/>
+									<div class="m-add am-fl">
+										<i class="iconfont icon-iconmianxingshujujia"></i>
+									</div>
+							</span>
+							<span class="m-del am-fr confirm">
+								<i class="iconfont icon-3"></i>
+							</span>
+							<div class="am-modal am-modal-confirm myconfirm" tabindex="-1">
+								<div class="am-modal-dialog">
+									<div class="am-modal-bd">
+										确定要删除该商品吗？
+									</div>
+									<div class="am-modal-footer">
+										<span class="am-modal-btn" data-am-modal-cancel>取消</span>
+										<span class="am-modal-btn" data-am-modal-confirm>确定</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						</span>
+					</div>
+				</div>
+				<div class="m-car-list">
+					<div class="m-car-p am-cf">
+						<span class="m-btn m-p-l m-choice am-fl">
+							<div class="kuang">
+						</div>
+						</span>
+						<span class="m-p-m am-fl">
+								<a href="productdetail-one.html">
+								<img src="img/jingpin/woman1.jpg" />
+								</a>
+							</span>
+						<span class="m-p-r am-fr">
+								<div class="m-p-n am-cf">
+									<span id="name" class="am-fl">
+										经典条纹绣花长袖衬衫-生花
+									</span>
+						<span class="price" class="am-fr">
+										￥299
+									</span>
+					</div>
+					<div class="m-size">
+						条纹，M
+					</div>
+					<div class="m-p-bottom am-cf">
+						<span class="m-number am-cf am-fl">
+									<div class="m-reduce am-fl">
+										<i class="iconfont icon-iconmianxingshujujian"></i>
+									</div>
+									<input  type="number" value="1" class="am-fl"/>
+									<div class="m-add am-fl">
+										<i class="iconfont icon-iconmianxingshujujia"></i>
+									</div>
+								</span>
+						<span class="m-del am-fr confirm">
+								<i class="iconfont icon-3"></i>
+							</span>
+							<div class="am-modal am-modal-confirm myconfirm" tabindex="-1">
+								<div class="am-modal-dialog">
+									<div class="am-modal-bd">
+										确定要删除该商品吗？
+									</div>
+									<div class="am-modal-footer">
+										<span class="am-modal-btn" data-am-modal-cancel>取消</span>
+										<span class="am-modal-btn" data-am-modal-confirm>确定</span>
+									</div>
+								</div>
+							</div>
+					</div>
+
+					</span>
+				</div>
+			</div>
+			<div class="all am-text-right am-text-sm color3">
+				共<span class="allNum">2</span>件 &nbsp &nbsp &nbsp &nbsp &nbsp 合计：
+				<span class="a-price">￥<span class="allPrice">
+							548
+							</span>
+				</span>
+			</div>
+		</div>
+		<div class="m-cars">
+			<div class="m-cars-tit am-cf">
+				<span class=" m-btn m-car-btn m-choice am-fl">					
+						<div class="kuang">
+						</div>
+						</span>
+				<span class="m-car-name am-fl">
+							Ever Spring服饰
+						</span>
+			</div>
+			<div class="m-car-list">
+				<div class="m-car-p am-cf">
+					<span class="m-btn m-p-l m-choice am-fl">
+								<div class="kuang">
+						</div>
+							</span>
+					<span class="m-p-m am-fl">
+								<a href="productdetail-one.html">
+								<img src="img/jingpin/man6.jpg" />
+								</a>
+							</span>
+					<span class="m-p-r am-fr">
+								<div class="m-p-n am-cf">
+									<span id="name" class="am-fl">
+										中款商务男风衣BYMA70022
+									</span>
+					<span class="price" class="am-fr">
+										￥799
+									</span>
+				</div>
+				<div class="m-size">
+					藏蓝，M
+				</div>
+				<div class="m-p-bottom am-cf">
+					<span class="m-number am-cf am-fl">
+									<div class="m-reduce am-fl">
+										<i class="iconfont icon-iconmianxingshujujian"></i>
+									</div>
+									<input  type="number" value="1" class="am-fl"/>
+									<div class="m-add am-fl">
+										<i class="iconfont icon-iconmianxingshujujia"></i>
+									</div>
+								</span>
+					<span class="m-del am-fr confirm">
+								<i class="iconfont icon-3"></i>
+							</span>
+							<div class="am-modal am-modal-confirm myconfirm" tabindex="-1">
+								<div class="am-modal-dialog">
+									<div class="am-modal-bd">
+										确定要删除该商品吗？
+									</div>
+									<div class="am-modal-footer">
+										<span class="am-modal-btn" data-am-modal-cancel>取消</span>
+										<span class="am-modal-btn" data-am-modal-confirm>确定</span>
+									</div>
+								</div>
+							</div>
+				</div>
+
+				</span>
+			</div>
+		</div>
+		<div class="all am-text-right am-text-sm color3">
+			共<span class="allNum">1</span>件 &nbsp &nbsp &nbsp &nbsp &nbsp 合计：
+			<span class="a-price">￥<span class="allPrice">
+							799
+							</span>
+			</span>
+		</div>
+		</div>
+		</div>
+		<div class="footer">
+			<div class="left">
+				<a href="#"><span class="load">Yzzz</span></a>
+				<span class="col"></span>
+				<a href="#"><span class="sign">退出</span></a>
+			</div>
+			<div class="right">
+				<a href="#"><span class="about">关于必要</span></a>
+				<span class="col"></span>
+				<a href="#"><span class="gotop">回顶部</span></a>
+			</div>
+		</div>
+		<div class="footer bottom">
+			<a href="#"><span class="load">触屏版</span></a>
+			<span class="col"></span>
+			<a href="#"><span class="absout">客户端</span></a>
+
+		</div>
+
+		</div>
+		<div class="flat-bottom am-cf">
+			<span class="m-btn m-p-all m-choice am-fl">
+				<div class="kuang">
+						</div>
+			</span>
+			<span class="am-fl all-choice">全选</span>
+			<span class="all-money">合计：<span class="sum">￥1347</span></span>
+			<span class="btn am-fr"><a href="confirm.html"><button type="button" class="am-btn am-btn-default">结算(<span class="all-num">3</span>)</button>
+			</a>
+			</span>
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

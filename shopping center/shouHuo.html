@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>biyao</title>
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/iconfont2.css" />
+		<link rel="stylesheet" href="assets/css/iconfontjian.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/iconfontjia.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/iconfont-shop.css" />
+	</head>
+
+	<body>
+		<div class="container shouHuo">
+			<div class="header">
+				<header data-am-widget="header" class="am-header am-header-default">
+					<div class="am-header-left am-header-nav">
+						<a  class="goback">
+							<i class="am-icon-md am-header-icon am-icon-angle-left"></i>
+						</a>
+					</div>
+					<h1 class="am-header-title">
+          			添加收货地址
+      			   </h1>
+					<div class="am-header-right am-header-nav">
+						<i class="am-icon-sm am-icon-bars navslide"></i>
+					</div>
+				</header>
+				<div class="hide">
+					<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default " id="">
+						<ul class="am-navbar-nav am-cf am-avg-sm-4">
+							<li>
+								<a href="index.html" class="">
+									<i class="am-icon-home"></i>
+									<span class="am-navbar-label">首页</span>
+								</a>
+							</li>
+							<li>
+								<a href="index.html" class="">
+									<i class=" am-icon-list-ul"></i>
+									<span class="am-navbar-label">分类</span>
+								</a>
+							</li>
+							<li data-am-navbar-share>
+								<a href="index.html" class="">
+									<i class="am-icon-shopping-cart"></i>
+									<span class="shopCar.html">购物车</span>
+								</a>
+							</li>
+							<li>
+								<a href="personCenter.html" class="">
+									<i class=" am-icon-user"></i>
+									<span class="am-navbar-label">我的必要</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="middle">
+				<div class="biaoDan am-padding-sm">
+					<form class="am-form color3 am-text-sm" id="shouhu" action="confirm.html" method="get">
+						<div class="am-form-group">
+							<label for="doc-ipt-name ">收货人姓名</label>
+							<input type="text" class="name am-radius"/>
+						</div>
+						<div class="am-form-group">
+							<label for="doc-ipt-iphone ">手机号码</label>
+							<input type="number" class="iphone am-radius"/>
+						</div>
+
+						<div class="am-form-group">
+							<div data-toggle="distpicker">
+								<label for="doc-ipt-provice">省份</label>
+								<select data-province="----请选择----" class="am-radius provice" ></select>
+								<label for="doc-ipt-provice" >城市</label>
+								<select data-city="----请选择----" class="am-radius city" ></select>
+								<label for="doc-ipt-provice">区县</label>
+								<select data-district="----请选择----" class="am-radius qu"></select>
+							</div>
+						</div>
+						<div class="am-form-group">
+							<label for="doc-ta-1">街道</label>
+							<textarea class="street" rows="2"></textarea>
+						</div>
+						<div class="am-checkbox am-margin-sm">
+							<label class="am-text-middle">
+      						  <input type="checkbox" class="am-radius" checked>设为默认地址
+      						</label>
+						</div>
+						<a href="confirm.html"><button type="submit" class="am-btn am-btn-default am-radius am-btn-primary  am-btn-block">保存地址</button></a>
+					</form>
+				</div>
+			</div>
+			<div class="footer">
+					<div class="left">
+						<a href="#"><span class="load">登录</span></a>
+						<span class="col"></span>
+						<a href="#"><span class="sign">注册</span></a>
+					</div>
+					<div class="right">
+						<a href="#"><span class="about">关于必要</span></a>
+						<span class="col"></span>
+						<a href="#"><span class="gotop">回顶部</span></a>
+					</div>
+				</div>
+			<div class="footer bottom">
+					<a href="#"><span class="load">触屏版</span></a>
+					<span class="col"></span>
+					<a href="#"><span class="absout">客户端</span></a>
+
+				</div>
+			<div class="tiShi">
+			</div>
+				
+			<!--[if (gte IE 9)|!(IE)]><!-->
+			<script src="assets/js/jquery-3.2.1.min.js"></script>
+			<!--<![endif]-->
+			<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+			<script src="assets/js/amazeui.min.js"></script>
+			<script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript" src="assets/js/distpicker.js"></script>
+	</body>
+
+</html>
